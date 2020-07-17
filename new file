@@ -1,0 +1,7 @@
+echo "# backpropagation9901" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/backpropagation9901/backpropagation9901.git
+git push -u origin master
+                
