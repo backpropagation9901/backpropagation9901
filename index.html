@@ -4,5 +4,42 @@
 
 <h2>My First JavaScript</h2>
 
-<body>
-<html>
+<h3>A demonstration of how to access a Number field</h3>
+
+<input type="number" id="myNumber">
+
+<h3>added to this number</h3>
+
+<input type="number" id="myNumber2">
+
+<p>Click the button to get the number of the number field.</p>
+
+<button onclick="myFunction()">Try it!!!</button>
+
+<p id="demo3"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNumber").value;
+  var y = document.getElementById("myNumber2").value;
+  var z = (x * 1) + (y * 1);
+  document.getElementById("demo3").innerHTML = z;
+}
+</script>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Does this work?</button>
+
+<h2>My second JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo1').innerHTML = Date()">
+Press me for the time</button>
+
+<p id="demo"></p>
+
+<p id="demo1"></p>
+
+</body>
+</html> 
